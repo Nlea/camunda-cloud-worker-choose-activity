@@ -7,4 +7,7 @@ In order to run the worker you need to make sure that a process is deployed to C
 **set up the worker** \
 Make sure to load all the maven dependencies that are included in the pom file. In order to connect to Camunda Cloud create a application.properties file in the main/ ressource folder. In that file provide your Camunda Cloud Cluster credentials. You can find an example [here](https://docs.camunda.io/docs/guides/setting-up-development-project#configure-connection) 
 
-If everything is set up you can start the CloudWorkerChooseActivityApplication class. 
+If everything is set up you can start the CloudWorkerChooseActivityApplication class. :tada:
+
+
+If you would build your own worker form sretch you can follow this [tutorial](https://docs.camunda.io/docs/guides/setting-up-development-project#prerequisites)
