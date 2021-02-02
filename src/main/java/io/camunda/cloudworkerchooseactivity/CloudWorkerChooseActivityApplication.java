@@ -60,7 +60,7 @@ public class CloudWorkerChooseActivityApplication {
 		Random rand = new Random();
 		int upperbound = activities.length;
 		int int_random = rand.nextInt(upperbound);
-		System.out.println("Nummer: "+ int_random + "von" + activities.length);
+		System.out.println("Nummer: "+ int_random + " von " + activities.length);
 
 
 
