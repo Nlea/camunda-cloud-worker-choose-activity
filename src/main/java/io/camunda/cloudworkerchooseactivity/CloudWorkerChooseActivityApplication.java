@@ -55,12 +55,13 @@ public class CloudWorkerChooseActivityApplication {
 				"\"movie time: select a movie and prepare a cinema evening in your flat/ house with popcorn ... you might even sale tickets to your household members\"" ,
 				"\"organize a MeetUp for the people in your household, decide on a topic to discuss for the evening and make everyone prepare something for it\"",
 				"\"exchange cloth with someone in your household for the day\"", "\"Karaoke time: turn on a Karaoke song and sing it!\"",
-				"\"light up some candles tonight\""};
+				"\"light up some candles tonight\"", "\"Dress up for as you want to go to a fancy party\"",
+				"\"Take some time and write down three good things that happened within the last week \"","\"Play a computer game\""};
 
 		Random rand = new Random();
 		int upperbound = activities.length;
 		int int_random = rand.nextInt(upperbound);
-		System.out.println("Nummer: "+ int_random + " von " + activities.length);
+		System.out.println("Number: "+ int_random + " von " + activities.length);
 
 
 
